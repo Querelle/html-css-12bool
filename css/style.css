@@ -1,0 +1,4 @@
+[class*="col-"] > .container {
+  text-align: center;
+  padding: 3px;
+}
