@@ -1,7 +1,6 @@
 /* debug */
 .debug .container {
   border: 1px solid red;
-  min-height: 30px;
   background-color: lightgrey;
 }
 .debug [class*="col-"] {
