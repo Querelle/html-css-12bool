@@ -1,4 +1,17 @@
-[class*="col-"] > .container {
+[class*="col-"] {
   text-align: center;
+}
+
+[class*="col-"] > .container {
   padding: 3px;
+  height: inherit;
+}
+
+[class*="col-"] .container > [class*="col-"] {
+  height: 100%;
+}
+
+[class*="col-"] span {
+  display: inline-block;
+  margin-top: 60px;
 }
